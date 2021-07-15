@@ -1,0 +1,12 @@
+{
+    "name": "@ibsolution/kt-router-grapqhl",
+    "private": true,
+    "scripts": {
+        "init": "lerna init",
+        "add:api": "lerna create @ibsolution/kt-router-grapqhl-api",
+        "add:web": "lerna create @ibsolution/kt-router-grapqhl-web"
+    },
+    "devDependencies": {
+        "lerna": "^4.0.0"
+    }
+}
